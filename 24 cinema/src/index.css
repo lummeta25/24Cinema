@@ -1,0 +1,22 @@
+.Header{
+  outline: dashed red 1px;
+  display: flex;
+  align-items: baseline;
+}
+
+ul{
+  display: flex;
+  column-gap: 30px;
+  list-style-type: none;
+  align-self: flex-end;
+}
+
+.Header_list{
+  outline: dashed blue 1px;
+  flex-grow: 1;
+
+}
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+}
